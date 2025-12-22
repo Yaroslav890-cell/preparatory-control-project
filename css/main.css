@@ -1,0 +1,76 @@
+html,
+body,
+p,
+ol,
+ul,
+li,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img,
+video {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.container {
+  width: 1200px;
+  padding: 0 3, 5px;
+  margin: 0 auto;
+}
+
+.header .header-list {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}/*# sourceMappingURL=main.css.map */
