@@ -1,0 +1,39 @@
+@use "../utils/placeholder.scss";
+.mobile-app {
+  color: #999999;
+  .mobile-app-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 146%;
+    text-align: center;
+    color: #323232;
+  }
+  .mobile-app-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 158%;
+    text-align: center;
+  }
+  .mobile-app-list {
+  }
+  .mobile-app-item {
+  }
+  .mobile-app-icon {
+  }
+  .mobile-app-item-title {
+    color: #000000;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+  }
+  .mobile-app-item-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 158%;
+    letter-spacing: 0%;
+  }
+  .mobile-app-button {
+    @extend %button;
+  }
+}

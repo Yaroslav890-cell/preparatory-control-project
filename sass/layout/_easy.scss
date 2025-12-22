@@ -1,0 +1,20 @@
+@use "../utils/placeholder.scss";
+
+.easy {
+  color: #ffffff;
+  &-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+  }
+  &-title {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 134%;
+    text-align: center;
+  }
+  &-button {
+    @extend %button;
+  }
+}

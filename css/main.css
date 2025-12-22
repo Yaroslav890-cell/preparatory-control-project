@@ -68,9 +68,66 @@ body {
 }
 
 .header .header-list {
-  font-family: Montserrat;
+  color: #FFFFFF;
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
+}
+
+.mobile-app .mobile-app-button, .easy-button {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  padding: 14px 36px;
+  border-radius: 30px;
+  background-color: #4985ff;
+  border: none;
+  display: flex;
+  margin: 0 auto;
+}
+
+.easy {
+  color: #ffffff;
+}
+.easy-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+}
+.easy-title {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 134%;
+  text-align: center;
+}
+.mobile-app {
+  color: #999999;
+}
+.mobile-app .mobile-app-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 146%;
+  text-align: center;
+  color: #323232;
+}
+.mobile-app .mobile-app-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 158%;
+  text-align: center;
+}
+.mobile-app .mobile-app-item-title {
+  color: #000000;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+}
+.mobile-app .mobile-app-item-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 158%;
   letter-spacing: 0%;
 }/*# sourceMappingURL=main.css.map */
