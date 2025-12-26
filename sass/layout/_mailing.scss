@@ -1,20 +1,47 @@
 @use "../utils/placeholder.scss";
 
-
-
 .mailing {
+  .mailing-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+  }
 
-    .mailing-title {}
+  .mailing-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 158%;
+    text-align: center;
+  }
 
-    .mailing-text {}
+  .mailing-form {
+  }
 
-    .mailing-form {}
+  .mailing-input {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 158%;
 
-    .mailing-input {}
+    border-width: 1px;
+    border: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 14px 0 14px 33px;
 
-    .mailing-button {
-     @extend %button;
+    box-shadow: 0px 0px 10px 0px #6f6f6f40;
+  }
 
-    }
-        .mailing-description {}
+  .mailing-button {
+    @extend %button;
+    border-bottom-left-radius: 0%;
+    border-top-left-radius: 0%;
+  }
+  .mailing-description {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 158%;
+    text-align: center;
+  }
 }

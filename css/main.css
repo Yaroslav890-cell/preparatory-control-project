@@ -74,7 +74,7 @@ body {
   line-height: 100%;
 }
 
-.work .work-btn, .project .project-btn, .mobile-app .mobile-app-button, .easy-button {
+.mailing .mailing-button, .work .work-btn, .project .project-btn, .mobile-app .mobile-app-button, .easy-button {
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
@@ -83,7 +83,7 @@ body {
   border-radius: 30px;
   background-color: #4985ff;
   border: none;
-  display: flex;
+  display: inline-flex;
   margin: 0 auto;
 }
 
@@ -117,6 +117,9 @@ body {
   font-size: 16px;
   line-height: 158%;
   text-align: center;
+}
+.mobile-app .mobile-app-icon {
+  fill: #4985ff;
 }
 .mobile-app .mobile-app-item-title {
   color: #000000;
@@ -165,6 +168,9 @@ body {
   text-decoration-thickness: 0%;
   color: #4985ff;
 }
+.standart .standart-icon {
+  fill: #4985ff;
+}
 .standart .standart-item-title {
   font-weight: 400;
   font-size: 36px;
@@ -182,8 +188,17 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 146%;
-  color: #FFF;
+  color: #fff;
 }
+.video .video-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 158%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #fff;
+}
+
 .work .work-title {
   font-weight: 700;
   font-size: 36px;
@@ -213,3 +228,64 @@ body {
   text-decoration-offset: 0%;
   text-decoration-thickness: 0%;
 }
+
+.mailing .mailing-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+}
+.mailing .mailing-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 158%;
+  text-align: center;
+}
+.mailing .mailing-input {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 158%;
+  border-width: 1px;
+  border: none;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding: 14px 0 14px 33px;
+  box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.2509803922);
+}
+.mailing .mailing-button {
+  border-bottom-left-radius: 0%;
+  border-top-left-radius: 0%;
+}
+.mailing .mailing-description {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 158%;
+  text-align: center;
+}
+
+.footer .footer-list {
+  border-bottom: #e0e0e0 solid 1px;
+}
+.footer .footer-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  color: #000000;
+}
+.footer .footer-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 158%;
+  letter-spacing: 0%;
+  color: #999999;
+}
+.footer .footer-copyright {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 158%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #999999;
+  padding: 30px 0;
+}/*# sourceMappingURL=main.css.map */
