@@ -1,20 +1,19 @@
 @use "../utils/placeholder.scss";
 
 .video {
+  .video-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 146%;
+    color: #fff;
+  }
 
-    .video-title {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 146%;
-        color:#FFF;
-    }
-
-    .video-text {
-
-    }
-
- 
-
-  
-
+  .video-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 158%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
+  }
 }
