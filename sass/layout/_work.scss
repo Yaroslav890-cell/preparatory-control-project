@@ -1,0 +1,59 @@
+@use "../utils/placeholder.scss";
+
+
+
+
+.work {
+
+
+
+    .work-wrap {}
+
+    .work-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 146%;
+    }
+
+    .work-btn {
+        @extend %button;
+
+    }
+
+    .work-list {}
+
+    .work-item {}
+
+    .work-image {}
+
+    .work-item-title {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 100%;
+
+    }
+
+    .work-item-title-add {
+        color: #4985FF;
+    }
+
+    .work-item-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 158%;
+        color: gray;
+    }
+
+    .work-item-link {
+        color: #4985FF;
+        font-weight: 500;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-decoration: underline;
+        text-decoration-style: solid;
+        text-decoration-offset: 0%;
+        text-decoration-thickness: 0%;
+
+
+    }
+}

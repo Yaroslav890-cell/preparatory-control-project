@@ -1,0 +1,20 @@
+@use "../utils/placeholder.scss";
+
+
+
+.mailing {
+
+    .mailing-title {}
+
+    .mailing-text {}
+
+    .mailing-form {}
+
+    .mailing-input {}
+
+    .mailing-button {
+     @extend %button;
+
+    }
+        .mailing-description {}
+}
