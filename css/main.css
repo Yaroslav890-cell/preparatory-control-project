@@ -74,7 +74,7 @@ body {
   line-height: 100%;
 }
 
-.work .work-btn, .mobile-app .mobile-app-button, .easy-button {
+.work .work-btn, .project .project-btn, .mobile-app .mobile-app-button, .easy-button {
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
@@ -130,6 +130,18 @@ body {
   font-size: 14px;
   line-height: 158%;
   letter-spacing: 0%;
+}
+.project .project-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 146%;
+  text-align: center;
+}
+.project .project-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 158%;
+  text-align: center;
 }
 .standart .standart-title {
   font-weight: 700;
@@ -200,4 +212,4 @@ body {
   text-decoration-style: solid;
   text-decoration-offset: 0%;
   text-decoration-thickness: 0%;
-}/*# sourceMappingURL=main.css.map */
+}

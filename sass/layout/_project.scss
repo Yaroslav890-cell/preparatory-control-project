@@ -1,0 +1,28 @@
+@use "../utils/placeholder.scss";
+
+.project {
+.project-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 146%;
+text-align: center;
+
+
+}
+.project-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 158%;
+text-align: center;
+
+}
+.project-list {
+}
+.project-item {
+}
+.project-image {
+}
+.project-btn {
+@extend %button;
+}
+}
