@@ -1,8 +1,37 @@
 .header {
-    .header-list {
-        color: #FFFFFF;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 100%;
-    }
+  background-image: url(../img/hero-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 900px;
+  .header-border {
+    border-bottom: 1px solid #a1a1a180;
+  }
+  .header-nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 40px;
+  }
+  .active::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0px;
+    bottom: -39px;
+    background-color: #ffffff;
+  }
+  .header-list {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    display: flex;
+    padding-bottom: 40px;
+  }
+  .header-link {
+    padding: 0 20px;
+    position: relative;
+  }
 }

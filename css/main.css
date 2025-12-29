@@ -63,15 +63,45 @@ body {
 
 .container {
   width: 1200px;
-  padding: 0 3, 5px;
+  padding: 0 3.5px;
   margin: 0 auto;
 }
 
+.header {
+  background-image: url(../img/hero-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 900px;
+}
+.header .header-border {
+  border-bottom: 1px solid rgba(161, 161, 161, 0.5019607843);
+}
+.header .header-nav {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 40px;
+}
+.header .active::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  left: 0px;
+  bottom: -39px;
+  background-color: #ffffff;
+}
 .header .header-list {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
+  display: flex;
+  padding-bottom: 40px;
+}
+.header .header-link {
+  padding: 0 20px;
+  position: relative;
 }
 
 .mailing .mailing-button, .work .work-btn, .project .project-btn, .mobile-app .mobile-app-button, .easy-button {
@@ -83,20 +113,26 @@ body {
   border-radius: 30px;
   background-color: #4985ff;
   border: none;
-  display: inline-flex;
+  display: flex;
   margin: 0 auto;
 }
 
 .easy {
+  height: 900px;
   color: #ffffff;
 }
 .easy-text {
+  padding-top: 219px;
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
   text-align: center;
 }
 .easy-title {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 829px;
+  margin-bottom: 50px;
   font-weight: 800;
   font-size: 48px;
   line-height: 134%;

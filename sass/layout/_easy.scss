@@ -1,14 +1,20 @@
 @use "../utils/placeholder.scss";
 
 .easy {
+  height: 900px;
   color: #ffffff;
   &-text {
+    padding-top: 219px;
     font-weight: 500;
     font-size: 16px;
     line-height: 100%;
     text-align: center;
   }
   &-title {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 829px;
+    margin-bottom: 50px;
     font-weight: 800;
     font-size: 48px;
     line-height: 134%;
