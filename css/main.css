@@ -197,6 +197,11 @@ body {
   margin-right: 17px;
   margin-bottom: 42px;
 }
+.project {
+  padding-bottom: 130px;
+  padding-top: 100px;
+  background-color: #F6F6F8;
+}
 .project .project-title {
   font-weight: 700;
   font-size: 36px;
@@ -204,11 +209,33 @@ body {
   text-align: center;
 }
 .project .project-text {
+  width: 730px;
+  margin: 0 auto;
+  margin-top: 26px;
+  margin-bottom: 96px;
+  color: #999999;
   font-weight: 400;
   font-size: 16px;
   line-height: 158%;
   text-align: center;
 }
+.project .project-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.project .project-btn {
+  display: inline;
+  align-items: center;
+  color: #FFFFFF;
+}
+.project .project-wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .standart .standart-title {
   font-weight: 700;
   font-size: 36px;
@@ -351,4 +378,4 @@ body {
   text-align: center;
   color: #999999;
   padding: 30px 0;
-}
+}/*# sourceMappingURL=main.css.map */

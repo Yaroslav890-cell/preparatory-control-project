@@ -1,28 +1,57 @@
 @use "../utils/placeholder.scss";
 
 .project {
-.project-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 146%;
-text-align: center;
+    padding-bottom: 130px;
+    padding-top: 100px;
+    background-color: #F6F6F8;
+
+    .project-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 146%;
+        text-align: center;
 
 
-}
-.project-text {
-font-weight: 400;
-font-size: 16px;
-line-height: 158%;
-text-align: center;
+    }
 
-}
-.project-list {
-}
-.project-item {
-}
-.project-image {
-}
-.project-btn {
-@extend %button;
-}
+    .project-text {
+        width: 730px;
+        margin: 0 auto;
+        margin-top: 26px;
+        margin-bottom: 96px;
+        color:#999999;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 158%;
+        text-align: center;
+
+    }
+
+    .project-list {
+        display: flex;
+        justify-content: space-between;
+        gap:30px;
+        margin-bottom: 50px;
+    }
+
+    .project-item {
+
+    }
+
+    .project-image {
+
+    }
+
+    .project-btn {
+        
+        @extend %button;
+        display: inline;
+        align-items:center;
+        color:#FFFFFF;
+    }
+    .project-wrap{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 }
