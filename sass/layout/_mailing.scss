@@ -1,11 +1,13 @@
 @use "../utils/placeholder.scss";
 
 .mailing {
+  padding: 85px 0;
   .mailing-title {
     font-weight: 600;
     font-size: 18px;
     line-height: 100%;
     text-align: center;
+    margin-bottom: 20px;
   }
 
   .mailing-text {
@@ -13,9 +15,13 @@
     font-size: 16px;
     line-height: 158%;
     text-align: center;
+    margin-bottom: 30px;
   }
 
   .mailing-form {
+    display: flex; justify-content: center;
+    height: 45px;
+    margin-bottom: 35px;
   }
 
   .mailing-input {
@@ -31,12 +37,15 @@
     padding: 14px 0 14px 33px;
 
     box-shadow: 0px 0px 10px 0px #6f6f6f40;
+    margin-bottom: 35px;
+    width: 361px;
   }
 
   .mailing-button {
     @extend %button;
     border-bottom-left-radius: 0%;
     border-top-left-radius: 0%;
+    margin: 0;
   }
   .mailing-description {
     font-weight: 400;

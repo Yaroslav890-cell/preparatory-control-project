@@ -379,17 +379,28 @@ body {
   text-decoration-thickness: 0%;
 }
 
+.mailing {
+  padding: 85px 0;
+}
 .mailing .mailing-title {
   font-weight: 600;
   font-size: 18px;
   line-height: 100%;
   text-align: center;
+  margin-bottom: 20px;
 }
 .mailing .mailing-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 158%;
   text-align: center;
+  margin-bottom: 30px;
+}
+.mailing .mailing-form {
+  display: flex;
+  justify-content: center;
+  height: 45px;
+  margin-bottom: 35px;
 }
 .mailing .mailing-input {
   font-family: Montserrat;
@@ -402,10 +413,13 @@ body {
   border-bottom-left-radius: 30px;
   padding: 14px 0 14px 33px;
   box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.2509803922);
+  margin-bottom: 35px;
+  width: 361px;
 }
 .mailing .mailing-button {
   border-bottom-left-radius: 0%;
   border-top-left-radius: 0%;
+  margin: 0;
 }
 .mailing .mailing-description {
   font-weight: 400;
@@ -414,14 +428,28 @@ body {
   text-align: center;
 }
 
+.footer {
+  padding-top: 70px;
+  background-color: #f6f6f8;
+}
 .footer .footer-list {
+  padding-bottom: 30px;
   border-bottom: #e0e0e0 solid 1px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer .footer-item {
+  width: 245px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 .footer .footer-title {
   font-weight: 600;
   font-size: 18px;
   line-height: 100%;
   color: #000000;
+  margin-bottom: 5px;
 }
 .footer .footer-text {
   font-weight: 400;
@@ -429,6 +457,9 @@ body {
   line-height: 158%;
   letter-spacing: 0%;
   color: #999999;
+}
+.footer .footer-icon {
+  margin-right: 15px;
 }
 .footer .footer-copyright {
   font-weight: 400;
