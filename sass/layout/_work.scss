@@ -1,59 +1,75 @@
 @use "../utils/placeholder.scss";
 
-
-
-
 .work {
+  padding-top: 100px;
+  padding-bottom: 85px;
+  background-image: linear-gradient(to right, #504dc2, #5f12d0);
+  background-size: 100% 490px;
+  background-repeat: no-repeat;
+  .work-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 70px;
+  }
 
+  .work-title {
+    width: 540px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 146%;
+    color: #ffffff;
+  }
 
+  .work-btn {
+    margin: 0;
+    @extend %button;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+  }
 
-    .work-wrap {}
+  .work-list {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 85px;
+    border-bottom: solid 1px #e0e0e0;
+  }
 
-    .work-title {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 146%;
-    }
+  .work-item {
+  }
 
-    .work-btn {
-        @extend %button;
+  .work-image {
+    border-radius: 10px;
+  }
 
-    }
+  .work-item-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    margin: 30px 0;
+  }
 
-    .work-list {}
+  .work-item-title-add {
+    color: #4985ff;
+  }
 
-    .work-item {}
+  .work-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 158%;
+    color: gray;
+    margin-bottom: 47px;
+  }
 
-    .work-image {}
-
-    .work-item-title {
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 100%;
-
-    }
-
-    .work-item-title-add {
-        color: #4985FF;
-    }
-
-    .work-item-text {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 158%;
-        color: gray;
-    }
-
-    .work-item-link {
-        color: #4985FF;
-        font-weight: 500;
-        line-height: 100%;
-        letter-spacing: 0%;
-        text-decoration: underline;
-        text-decoration-style: solid;
-        text-decoration-offset: 0%;
-        text-decoration-thickness: 0%;
-
-
-    }
+  .work-item-link {
+    color: #4985ff;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-offset: 0%;
+    text-decoration-thickness: 0%;
+  }
 }

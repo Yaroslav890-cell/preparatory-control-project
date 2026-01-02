@@ -200,7 +200,7 @@ body {
 .project {
   padding-bottom: 130px;
   padding-top: 100px;
-  background-color: #F6F6F8;
+  background-color: #f6f6f8;
 }
 .project .project-title {
   font-weight: 700;
@@ -226,9 +226,10 @@ body {
   margin-bottom: 50px;
 }
 .project .project-btn {
-  display: inline;
-  align-items: center;
-  color: #FFFFFF;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
 }
 .project .project-wrap {
   display: flex;
@@ -289,27 +290,59 @@ body {
   color: #fff;
 }
 
+.work {
+  padding-top: 100px;
+  padding-bottom: 85px;
+  background-image: linear-gradient(to right, #504dc2, #5f12d0);
+  background-size: 100% 490px;
+  background-repeat: no-repeat;
+}
+.work .work-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 70px;
+}
 .work .work-title {
+  width: 540px;
   font-weight: 700;
   font-size: 36px;
   line-height: 146%;
+  color: #ffffff;
+}
+.work .work-btn {
+  margin: 0;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+.work .work-list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 85px;
+  border-bottom: solid 1px #e0e0e0;
+}
+.work .work-image {
+  border-radius: 10px;
 }
 .work .work-item-title {
   font-weight: 600;
   font-size: 18px;
   line-height: 100%;
+  margin: 30px 0;
 }
 .work .work-item-title-add {
-  color: #4985FF;
+  color: #4985ff;
 }
 .work .work-item-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 158%;
   color: gray;
+  margin-bottom: 47px;
 }
 .work .work-item-link {
-  color: #4985FF;
+  color: #4985ff;
   font-weight: 500;
   line-height: 100%;
   letter-spacing: 0%;

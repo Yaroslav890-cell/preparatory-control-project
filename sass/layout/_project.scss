@@ -1,57 +1,52 @@
 @use "../utils/placeholder.scss";
 
 .project {
-    padding-bottom: 130px;
-    padding-top: 100px;
-    background-color: #F6F6F8;
+  padding-bottom: 130px;
+  padding-top: 100px;
+  background-color: #f6f6f8;
 
-    .project-title {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 146%;
-        text-align: center;
+  .project-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 146%;
+    text-align: center;
+  }
 
+  .project-text {
+    width: 730px;
+    margin: 0 auto;
+    margin-top: 26px;
+    margin-bottom: 96px;
+    color: #999999;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 158%;
+    text-align: center;
+  }
 
-    }
+  .project-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
 
-    .project-text {
-        width: 730px;
-        margin: 0 auto;
-        margin-top: 26px;
-        margin-bottom: 96px;
-        color:#999999;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 158%;
-        text-align: center;
+  .project-item {
+  }
 
-    }
+  .project-image {
+  }
 
-    .project-list {
-        display: flex;
-        justify-content: space-between;
-        gap:30px;
-        margin-bottom: 50px;
-    }
-
-    .project-item {
-
-    }
-
-    .project-image {
-
-    }
-
-    .project-btn {
-        
-        @extend %button;
-        display: inline;
-        align-items:center;
-        color:#FFFFFF;
-    }
-    .project-wrap{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
+  .project-btn {
+    @extend %button;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+  }
+  .project-wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 }
