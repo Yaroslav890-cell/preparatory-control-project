@@ -141,6 +141,7 @@ body {
 }
 .mobile-app {
   color: #999999;
+  margin-bottom: 105px;
 }
 .mobile-app .mobile-app-title {
   font-weight: 700;
@@ -237,13 +238,30 @@ body {
   flex-direction: column;
 }
 
+.standart {
+  background-color: #F6F6F8;
+  padding-top: 152px;
+  padding-bottom: 70px;
+}
+.standart .standart-wrap {
+  display: flex;
+  margin-bottom: 70px;
+  padding-bottom: 70px;
+  justify-content: space-between;
+  border-bottom: 1px solid #E0E0E0;
+}
+.standart .standart-wrap-text {
+  width: 489px;
+}
 .standart .standart-title {
+  margin-bottom: 60px;
   font-weight: 700;
   font-size: 36px;
   line-height: 146%;
   color: #323232;
 }
 .standart .standart-text {
+  margin-bottom: 42px;
   font-weight: 400;
   font-size: 16px;
   line-height: 158%;
@@ -258,6 +276,15 @@ body {
   text-decoration-style: solid;
   text-decoration-thickness: 0%;
   color: #4985ff;
+}
+.standart .standart-title-image {
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.2509803922);
+}
+.standart .standart-ul {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
 }
 .standart .standart-icon {
   fill: #4985ff;
